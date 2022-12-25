@@ -1,10 +1,10 @@
 pipeline {
- agent any
+ agent any 
  stages {
- stage('Build') {
- steps {
- sh 'python time.py'
- }
- }
+  stage('Build') {
+   steps {
+    sh 'python time.py'
+   }
+  }
  }
 }

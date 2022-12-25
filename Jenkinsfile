@@ -3,7 +3,7 @@ pipeline {
  stages {
   stage('Build') {
    steps {
-    sh 'python3 time.py'
+    sh 'pip3 time.py'
    }
   }
  }
